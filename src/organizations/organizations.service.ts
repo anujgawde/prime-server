@@ -125,7 +125,7 @@ export class OrganizationsService {
 
     if (
       userLevels[removeEmployeeDto.employeeOrganization.roles] >
-      userLevels[removeEmployeeDto.removerOganization.roles]
+      userLevels[removeEmployeeDto.removerOrganization.roles]
     ) {
       // TODO: Throw an exception
       return;

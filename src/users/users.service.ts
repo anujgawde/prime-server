@@ -64,7 +64,7 @@ export class UsersService {
 
   async removeEmployee(removeEmployeeDto) {
     await this.userModel.findOneAndUpdate(
-      { _id: removeEmployeeDto.userId },
+      { _id: removeEmployeeDto.employeeId },
       { organization: null },
       { new: true },
     );

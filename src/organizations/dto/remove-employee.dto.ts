@@ -7,7 +7,7 @@ export class RemoveEmployeeDto {
     id: mongoose.Types.ObjectId;
     roles: string;
   };
-  removerOganization: {
+  removerOrganization: {
     id: mongoose.Types.ObjectId;
     roles: string;
   };
